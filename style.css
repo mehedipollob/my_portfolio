@@ -86,6 +86,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     color: white;
+    cursor: pointer;
 }
 
 #sec{
@@ -176,4 +177,132 @@
     border-radius: 16px;
     overflow: hidden;
     padding: 30px 30px;
+}
+
+.cards{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
+.card{
+    width: 284px;
+    height: 219px;
+    padding: 20px;
+}
+.card-title{
+    padding-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-dis{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    padding-top: 8px;
+}
+
+.card-footer{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+padding-top: 24px;
+}
+
+.card1-color{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.1);
+}
+
+.card2-color{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.1);
+}
+
+.card3-color{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.1);
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/handshake.jpg);
+    width: 1420px;
+    height: 313px;
+    margin: 100px 40px;
+    border-radius: 10px;
+}
+
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.support-discription{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding: 20px 0px;
+}
+.text{
+    height: 37px;
+    width: 547px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.submit{
+    padding: 8px 20px 8px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 70px;
+}
+
+.footer-dis{
+    font-weight: 800;
+}
+
+.copyright{
+    margin-left: 40px;
 }
