@@ -164,6 +164,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 .video{
@@ -216,14 +217,15 @@
 
 .card-footer{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-padding-top: 24px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-top: 24px;
+    
 }
 
 .card1-color{
